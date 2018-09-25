@@ -1,0 +1,213 @@
+header {
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+}
+
+body {
+    background-image: url("../images/gravel.png");
+    margin: 0;
+}
+
+.title {
+    color: #4aaaa5;
+}
+
+.info {
+    display: inline-block;
+    width: 880px;
+    margin-left: 175px;
+    margin-top: 40px;
+    margin-bottom:80px;
+    padding: 30px;
+	background-color: #ffffff;
+    border: 1px solid #dddddd;
+    position: center;
+    color: #777777;
+}
+
+.info h1 {
+	font-size: 30px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-bottom: 12px;
+    margin-top: 0px;
+	margin-bottom: 15px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.name {
+	display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+	font-size: 30px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 25px;
+    width: auto;
+    margin-left: 175px;
+}
+
+img.me{
+    float: left;
+	padding: 0 12px 12px 0;
+	width: 200px;
+	height: 200px;
+}
+
+.top {
+    color: #dddddd;
+}
+
+/* Nav */
+
+#navigator {
+    float: right;
+    padding-right: 165px;
+    padding-top: 20px;
+}
+
+#navigator1 {
+    float: right;
+    padding-right: 165px;
+    padding-top: 20px;
+}
+
+#navigator2 {
+    float: right;
+    padding-right: 165px;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:#777777
+}
+
+nav.nav1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/* end nav */
+
+/* start contact */
+
+input[type=text] {
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+}
+
+textarea {
+    border: 1px solid #dddddd
+}
+
+.contact {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#name{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#email{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#message{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#submit{
+    padding: 10px 20px 10px 20px;
+}
+
+/*end contact*/
+
+/* start portfolio */
+
+a.game-link {
+    display: block;
+    width: 250px;
+    height: 175px;
+}
+
+img.portfolio-item {
+    width: 250px;
+    height: 175px;
+}
+
+.game-name {
+    color:#ffffff;
+    background-color: #4aaaa5;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+    width: 250px;
+    bottom: 45px;
+    margin:0px;
+}
+
+#portfolio {
+    overflow: auto;
+    margin-bottom: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 20px;
+    grid-row-gap:50px;
+}
+
+.grid-item {
+    position:relative;
+    width:250px;
+    height:175px;
+}
+
+.grid-item:hover {
+	opacity:0.7;
+}
+
+/* end portfolio */
+
+/* footer */
+
+footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+	width: 100%;
+	padding-top: 35px;
+	text-align: center;
+	font-size: 10.5px;
+	color: #cccccc;
+    background-color: #666666;
+    border-bottom: 5px solid #666666;
+    border-top: 7px solid #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 200;
+}
