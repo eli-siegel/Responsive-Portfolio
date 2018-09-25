@@ -25,6 +25,7 @@ body {
     border: 1px solid #dddddd;
     position: center;
     color: #777777;
+    overflow: auto;
 }
 
 .info h1 {
@@ -112,7 +113,8 @@ input[type=submit] {
 }
 
 textarea {
-    border: 1px solid #dddddd
+    border: 1px solid #dddddd;
+    width: 100%;
 }
 
 .contact {
@@ -210,4 +212,78 @@ footer {
     border-top: 7px solid #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 200;
+}
+
+/* Media Inquiries */
+
+@media screen and (max-width: 980px) {
+    .info {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .name {
+        margin-left: 40px;
+    }
+
+    .grid-container {
+        grid-column-gap: 10px;
+        grid-template-columns: 270px 270px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        width: 80%;
+    }
+
+    .grid-container {
+        grid-column-gap: 10px;
+        grid-template-columns: 270px 270px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .info {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .name {
+        width: 100%;
+        margin-left:0px;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    nav.nav1 {
+        padding: 0px;
+        float: center;
+        text-align: center;
+    }
+
+    #navigator {
+        padding: 0px;
+        float: none;
+    }
+
+    #navigator1 {
+        padding: 0px;
+        float: none;
+    }
+   
+    #navigator2 {
+        padding: 0px;
+        float: none;
+    }
+
+    ul {
+        padding:0px;
+    }
+
+    .grid-container {
+        grid-template-columns: 270px;
+    }
+    
 }

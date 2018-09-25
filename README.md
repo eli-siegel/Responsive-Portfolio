@@ -1,2 +1,2 @@
-# Basic_Portfolio
-This is my portfolio (Homework assignment #1)
+# Responive_Portfolio
+This is my responsive portfolio (Homework assignment #2)
